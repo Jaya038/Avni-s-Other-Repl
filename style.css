@@ -1,0 +1,13 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lucida Handwriting', sans-serif;
+  font-weight: 100;
+}
+ 
+h1 {
+  /* Try putting some styling for h1 here */
+}
