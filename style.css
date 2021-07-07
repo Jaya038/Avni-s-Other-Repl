@@ -3,11 +3,64 @@ html, body {
   padding: 0;
 }
 
-body {
-  font-family: 'Lucida Handwriting', sans-serif;
-  font-weight: 100;
+.container {
+  padding: 2px 2px;
+}
+
+.nav { 
+  background: lavender;
+  width: 100%;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nav ul li {
+  color: red;
+  display: inline-block; 
+  list-style: none;
+  padding: 10px 10px;
+}
+
+.nav ul li:hover {
+  background: rgb;
+  cursor: pointer; 
+  transition: background .5s;  
+}
+
+.footer { 
+  background: rgb(231, 224, 255) (229, 228, 255);
+  height: 80px; 
+  padding-bottom: 10px;
 }
  
-h1 {
-  /* Try putting some styling for h1 here */
+.footer p { 
+  color: rgb(122, 79, 116);
+  font-size: 14px;  
+  height: 80px; 
+  line-height: 80px;
+  margin: 0;  
+}
+
+.jumbotron {
+  background: url(images/2TierCake2.JPG) center center;
+  background-size: cover;
+  height: 600px; 
+}
+ 
+.jumbotron .container {
+  position: relative;
+  top: 220px;
+}
+
+body {
+ font-family: 'Lora', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 300;
+ text-transform: uppercase;
 }
