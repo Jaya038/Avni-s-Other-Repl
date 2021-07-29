@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
@@ -8,7 +9,7 @@
   </head>
   <body>
     <script src="script.js"></script>
-    <div class="jumbotron chocchipcookies">
+    <div class="jumbotron newcookiecontact">
       <div class="nav">
         <ul>
           <li> <a href="index.html"> Home </a> </li>
@@ -17,9 +18,13 @@
           <li> <a href="contactfile.html"> Contact </a> </li>
         </ul>
       </div>
+          <h1> CONTACT </h1>
+          <h3> Contact Me! </h3>
+    </div>
+    <div class= "content">
+      <h3> You can find all the contact info stuff right here. </h3> 
     </div>
       </div>
-      <h1> CONTACT </h1>
        <div class="footer">
         <div class="container">
           <p>This website was made by Avni Parsa. The source code can be found
@@ -27,6 +32,17 @@
         </div>
       </div>
     </div>
+    <form>
+      <input type="text" placeholder="Enter your first name" id="firstName" />
+      <input type="text" placeholder="Enter your last name" id="lastName" />
+      <input type="text" placeholder="Subject" id="subject" />
+      <br><br>
+      <span>What is your question?</span>
+      <br>
+      <textarea id="question" rows="4"></textarea>
+      <br><br>
+      <button onclick="sendMail();">Send contact</button>
+    </form>
     </ul>
   </body>
 </html>
